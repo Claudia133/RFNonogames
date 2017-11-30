@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="58dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="23dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.claudiaalamillo.rfnonogames.EasyLevelActivity">
+
+
+    <include
+        layout="@layout/easy_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:id="@+id/include" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/easy_row_hints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="260dp"/>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/easy_col_hints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="225dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>
+
