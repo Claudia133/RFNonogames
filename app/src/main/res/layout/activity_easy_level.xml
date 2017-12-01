@@ -10,7 +10,7 @@
     android:paddingRight="23dp"
     android:paddingTop="16dp"
     tools:context="com.example.claudiaalamillo.rfnonogames.EasyLevelActivity">
-
+    <!--adjf-->
 
     <include
         layout="@layout/easy_grid"
